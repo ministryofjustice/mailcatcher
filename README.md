@@ -16,9 +16,9 @@ MoJ.
 
 ## Push to MoJ public docker hub repo
 
-  docker tag mailcatcher ministryofjustice/mailcatcher
+    docker tag mailcatcher ministryofjustice/mailcatcher
 
-  docker push ministryofjustice/mailcatcher
+    docker push ministryofjustice/mailcatcher
 
 ## Thin deprecation warning
 
