@@ -14,13 +14,11 @@ MoJ.
 
     docker run -d -p 1080:1080 --name mailcatcher mailcatcher
 
-## Push to MoJ repository
+## Push to MoJ public docker hub repo
 
-Adjust version number, as appropriate
+  docker tag mailcatcher ministryofjustice/mailcatcher
 
-    docker tag mailcatcher registry.service.dsd.io/ministryofjustice/mailcatcher:0.1.0
-
-    docker push registry.service.dsd.io/ministryofjustice/mailcatcher:0.1.0
+  docker push ministryofjustice/mailcatcher
 
 ## Thin deprecation warning
 
